@@ -33,13 +33,11 @@ public class Principal {
         }else{
             if(mensajes > 40 && mensajes <= 200){
                 mensajes -= 40;
-                System.out.println(mensajes);
                 cargoPagar = mensajes * 0.05;
                 precioPagar = tarifa_basica + cargoPagar;
             }else{
                 if(mensajes > 200){
                     mensajes -= 40;
-                    System.out.println(mensajes);
                     cargoPagar = mensajes * 0.10;
                     precioPagar = tarifa_basica + cargoPagar;
                 }
