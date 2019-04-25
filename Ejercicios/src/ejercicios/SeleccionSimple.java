@@ -1,3 +1,5 @@
+package ejercicios;
+
 
 import paquetedos.Operacion;
 import java.util.Scanner;

@@ -12,4 +12,5 @@ package paquetedos;
 public class Operacion {
     //declarar una variable statica
     public static String mensaje = "Usted esta aprobado con";
+    public static String mensajeDos = "Usted esta reprobado";
 }
