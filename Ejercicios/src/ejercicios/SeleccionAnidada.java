@@ -22,6 +22,7 @@ public class SeleccionAnidada {
         System.out.println("Ingrese la calificacion");
         calificacion = entrada.nextInt();
         
+       
         //validamos la nota y mostramos resultados
         if(calificacion >= 90){
             System.out.printf("%s (%s) con %d", OperacionDos.mensaje, 
